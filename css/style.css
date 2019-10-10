@@ -77,7 +77,7 @@ footer{
 
 .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -207,7 +207,7 @@ button{
     height: 40px;
     width: 200px;
     border-radius: 35px;
-    background-color: palegreen; 
+    background-color: #f7f680; 
 }
 
 button:active{
@@ -216,7 +216,7 @@ button:active{
 
 
 .outlineButton{
-    display:inline;
+    display:inline-block;
     /* height: 40px;
     width: 80px; */
     border-radius: 15px;
