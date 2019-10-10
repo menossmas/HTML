@@ -1,28 +1,37 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-
+*{
+      font-family: 'Karla', sans-serif;
 }
-
 h1{
-    color: white;
-    text-align: center;
-    font-family: 'B612 Mono', monospace;
-    font-weight: 700;
-    font-size: 2.5em;
+    color: black;
+    /* text-align: center; */
+    font-family: 'Fugaz One', cursive;
+    /* font-weight: 700; */
+    font-size: 4em;
 }
 h2{
-    color: orchid;
-    text-align: center;
-    font-family: 'B612 Mono', monospace;
+    color: black;
+    /* text-align: center; */
+    font-family: 'Fugaz One', cursive;
     font-weight: 700;
+    font-size: 2em;
+}
+
+
+
+h3{
+    color: fuchsia;
+    /* text-align: center; */
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 p{
     color: darkgray;
     text-align: center;
-    font-family: monospace; 
+    font-family: 'Karla', sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 1em;
     
 }
 
@@ -43,6 +52,8 @@ header{
 main{
     height: 530pt;
     background-color: #94f6f2;
+    display: space-around;
+    padding: 24px;
 }
 
 
@@ -50,7 +61,7 @@ main{
 .col{
     /* float:left; */
     /* width: 30%; */
-    /* padding: 15px; */
+    padding: 16px 64px;
     /* border:coral; */
     /* background-color: lightcyan; */
     /* display: flex;
@@ -61,7 +72,6 @@ main{
 
 
 footer{
-    height: 850px;
     background-color: #94f6f2;
 }
 
@@ -74,18 +84,35 @@ footer{
 .icon{
     color:rgb(127, 255, 255);
     padding: 10px;
+
 }
 
-/* a{
+a{
     padding: 5px 20px;
- } */
+    text-decoration: none;
+ }
 
+ a:link{
+     text-decoration: none;
+     color:black;
+ }
+
+ a:hover{
+     text-decoration: underline;
+     color: pink;
+ }
+
+ a:visited{
+    text-decoration: none;
+    color:black;
+
+ }
 
 
 .img-rounded {
-    border-radius: 50%;
+    border-radius: 15%;
     width: 300px;
-    height: 300px;
+    height:300px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,9 +133,9 @@ footer{
 
 .col-1 {width: 8.33%;}
 /* .col-2 {width: 16.66%;} */
-/* .col-2 {width: calc(100%/6);} */
+.col-2 {width: 5%;}
 .col-3 {width: 25%;}
-.col-4 {width: calc(100%/3);}
+.col-4 {width: 20%; }
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
@@ -132,7 +159,7 @@ background-color: #94f6f2;
     }
 
 .bkSizeLarge{
-    height: 750pt;
+    padding:24px;
 }
 
 ul{
@@ -148,4 +175,54 @@ li{
 li a{
     display: inline-block;
     padding: 4px 8px;
+}
+
+.logoCandy{
+
+    background-image: url(../images/candy-logo-\ .png);
+    width: 200px;
+    height:100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.txtJustify{
+    text-align: justify;
+}
+
+.txtLeft{
+    text-align: left;
+}
+
+
+button{
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 35px;
+    background-color: palegreen; 
+}
+
+button:active{
+    background-color: #fbd0f5;
+}
+
+
+.outlineButton{
+    display:inline;
+    /* height: 40px;
+    width: 80px; */
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid aqua;
+    padding: 10px 10px
+
 }
