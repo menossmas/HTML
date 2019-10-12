@@ -1,19 +1,28 @@
 *{
       font-family: 'Karla', sans-serif;
 }
+
+h1,h2,h3,p{
+    margin:0;
+}
+
 h1{
     color: black;
     /* text-align: center; */
     font-family: 'Fugaz One', cursive;
     /* font-weight: 700; */
     font-size: 4em;
+    padding: 25px 0 0 0;
+ 
+
 }
 h2{
     color: black;
     /* text-align: center; */
     font-family: 'Fugaz One', cursive;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
+    padding: 35px 0;
 }
 
 
@@ -24,15 +33,13 @@ h3{
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     font-size: 1.5em;
+    padding:36px;
 }
 
 p{
-    color: darkgray;
-    text-align: center;
+    color: black;
     font-family: 'Karla', sans-serif;
-    font-weight: 200;
-    font-size: 1em;
-    
+    margin:0 0 100px 0;
 }
 
 /* img{
@@ -50,7 +57,7 @@ header{
 }
 
 main{
-    height: 530pt;
+    height: 420pt;
     background-color: #94f6f2;
     display: space-around;
     padding: 24px;
@@ -59,13 +66,7 @@ main{
 
 
 .col{
-    /* float:left; */
-    /* width: 30%; */
     padding: 16px 64px;
-    /* border:coral; */
-    /* background-color: lightcyan; */
-    /* display: flex;
-    justify-content: space-around; */
 }
 
 
@@ -110,9 +111,9 @@ a{
 
 
 .img-rounded {
-    border-radius: 15%;
-    width: 300px;
-    height:300px;
+    border-radius: 50%;
+    width: 360px;
+    height:360px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,6 +129,9 @@ a{
 
 .imgSprinkles {
     background-image: url('../images/2795918.jpg');
+    height:150pt;
+    width: 150pt;
+    
 }
 
 
@@ -174,7 +178,7 @@ li{
 
 li a{
     display: inline-block;
-    padding: 4px 8px;
+    padding: 4px 26px;
 }
 
 .logoCandy{
@@ -204,10 +208,12 @@ button{
     display:inline-block;
     text-decoration: none;
     text-align: center;
-    height: 40px;
+    /* height: 40px; */
     width: 200px;
     border-radius: 35px;
-    background-color: #f7f680; 
+    background-color: #f7f680;
+    padding: 16px; 
+    margin: 25px 0px;
 }
 
 button:active{
@@ -224,5 +230,29 @@ button:active{
     text-align: center;
     border: 2px solid aqua;
     padding: 10px 10px
+
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/* .feature2{
+    background-image: url(../images/2795918.jpg) */
+    
+}
+
+
+
+
+
+@media only screen (width:600px;
+
 
 }
